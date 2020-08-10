@@ -1,0 +1,26 @@
+/* Mobile first */
+/* from 0 and up */
+body {
+    background-color: mistyrose;
+}
+
+/* from 600px and up */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* from 800px and up */
+@media screen and (min-width: 800px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* when we print a page */
+@media print {
+    body {
+        background-color: white;
+    }
+}

@@ -1,0 +1,18 @@
+/* Desktop first */
+body {
+    background-color: red;
+}
+
+/* up to 800px */
+@media screen and (max-width: 800px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* up to 600px */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: mistyrose;
+    }
+}
